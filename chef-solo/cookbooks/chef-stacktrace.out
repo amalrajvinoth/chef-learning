@@ -1,0 +1,20 @@
+Generated at Mon Sep 16 13:41:49 +0000 2013
+Chef::Exceptions::CookbookNotFound: No cookbook found in ["/var/chef/cookbooks", "/var/chef/site-cookbooks"], make sure cookbook_path is set correctly.
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:560:in `assert_cookbook_path_not_empty'
+/var/lib/gems/1.8/gems/ohai-6.18.0/lib/ohai/system.rb:147:in `each_with_index'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:554:in `each'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:554:in `each_with_index'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:554:in `assert_cookbook_path_not_empty'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:250:in `setup_run_context'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:492:in `do_run'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:199:in `run'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:193:in `fork'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/client.rb:193:in `run'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/application.rb:183:in `run_chef_client'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/application/solo.rb:239:in `run_application'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/application/solo.rb:231:in `loop'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/application/solo.rb:231:in `run_application'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/../lib/chef/application.rb:66:in `run'
+/var/lib/gems/1.8/gems/chef-11.6.0/bin/chef-solo:25
+/usr/local/bin/chef-solo:19:in `load'
+/usr/local/bin/chef-solo:19
